@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+} */
+
+.nav_clr{
+    background-color: rgba(66, 126, 245, 1);
+}
+
+.crousel_sec{
+    /* height: 40vh; */
+    background-color: rgba(44, 44, 45, 0.6);
+}
+
+.crousel_sec a{
+    text-decoration: none;
+    color:darkgrey;
+    text-align: center;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.prg_edit{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card_clr{
+    /* background-color: rgba(122, 19, 248, 0.9); */
+    background-color: rgba(66, 126, 245, 0.9);
+}
+.card-wrapper {
+    margin: 5% 0;
+  }
+  
+/* You can adjust the image size by increasing/decreasing the width, height */
+.custom-circle-image {
+  width: 10vw; /* note i used vw not px for better responsive */
+  height: 10vw;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  letter-spacing: 1.1px;
+}
+
+.card-text {
+  font-family: MerriweatherRegular;
+  font-size: 22px;
+  line-height: initial;
+}
+
+.dropzone {
+  border-style: dashed;
+}
+
+
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 30px;
+  line-height: initial;
+  color: blue;
+  text-align: center;
+}
+
+#classTable {
+  font-family: "sans-serif", Arial, Helvetica, Trebuchet MS;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#classTable td, #classTable th {
+  border: 1px solid #111;
+  padding: 8px;
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #038707;
+  color: white;
+}
+
+#classTable tr{
+    background-color: #5aa05def;
+    text-align: center;
+}
+
+footer{
+    background-color: #111;
+    padding: 2px;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 4px;
+    color: gray;
+    font-family: 'poppins', sans-serif;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+footer p a{
+    text-decoration: none;
+    color: gray;
+}
